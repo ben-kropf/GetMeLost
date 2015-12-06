@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340DBF05574B4C93D1F93208 /* Pods_Get_Me_Lost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D954A9E6932A14C1C99CCB /* Pods_Get_Me_Lost.framework */; };
+		563E0CC41C13E0A700364263 /* TakeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E0CC31C13E0A700364263 /* TakeHomeViewController.swift */; };
+		5653E39A1C14A11C003B9091 /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653E3991C14A11C003B9091 /* DirectionsViewController.swift */; };
+		5653E39C1C14A401003B9091 /* ArrivedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5653E39B1C14A401003B9091 /* ArrivedViewController.swift */; };
+		567F284C1C13CF78004CDC64 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F284B1C13CF78004CDC64 /* MenuViewController.swift */; };
+		567F284E1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F284D1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift */; };
+		567F28501C13D529004CDC64 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F284F1C13D529004CDC64 /* DestinationTableViewCell.swift */; };
 		56B7BE481C0FAF2500D5B704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */; };
 		56B7BE4A1C0FAF2500D5B704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7BE491C0FAF2500D5B704 /* ViewController.swift */; };
 		56B7BE4D1C0FAF2500D5B704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B7BE4B1C0FAF2500D5B704 /* Main.storyboard */; };
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2319AF8352261CA67F068431 /* Pods-Get Me Lost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get Me Lost.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get Me Lost/Pods-Get Me Lost.release.xcconfig"; sourceTree = "<group>"; };
+		40D954A9E6932A14C1C99CCB /* Pods_Get_Me_Lost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_Me_Lost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563E0CC31C13E0A700364263 /* TakeHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeHomeViewController.swift; sourceTree = "<group>"; };
+		5653E3991C14A11C003B9091 /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		5653E39B1C14A401003B9091 /* ArrivedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrivedViewController.swift; sourceTree = "<group>"; };
+		567F284B1C13CF78004CDC64 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		567F284D1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationFiltersTableViewController.swift; sourceTree = "<group>"; };
+		567F284F1C13D529004CDC64 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
 		56B7BE441C0FAF2500D5B704 /* Get Me Lost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Me Lost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B7BE491C0FAF2500D5B704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		56B7BE631C0FAF2600D5B704 /* Get Me LostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get Me LostUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B7BE671C0FAF2600D5B704 /* Get_Me_LostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_Me_LostUITests.swift; sourceTree = "<group>"; };
 		56B7BE691C0FAF2600D5B704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70094154CE94731F2C291B7B /* Pods-Get Me Lost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get Me Lost.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get Me Lost/Pods-Get Me Lost.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				340DBF05574B4C93D1F93208 /* Pods_Get_Me_Lost.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				56B7BE5B1C0FAF2600D5B704 /* Get Me LostTests */,
 				56B7BE661C0FAF2600D5B704 /* Get Me LostUITests */,
 				56B7BE451C0FAF2500D5B704 /* Products */,
+				5F564E3BCEA7B0744DED7F3B /* Pods */,
+				88B170518A11374C9E8E2063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +119,12 @@
 				56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */,
 				56B7BE491C0FAF2500D5B704 /* ViewController.swift */,
 				56B7BE4B1C0FAF2500D5B704 /* Main.storyboard */,
+				5653E39B1C14A401003B9091 /* ArrivedViewController.swift */,
+				5653E3991C14A11C003B9091 /* DirectionsViewController.swift */,
+				563E0CC31C13E0A700364263 /* TakeHomeViewController.swift */,
+				567F284D1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift */,
+				567F284F1C13D529004CDC64 /* DestinationTableViewCell.swift */,
+				567F284B1C13CF78004CDC64 /* MenuViewController.swift */,
 				56B7BE4E1C0FAF2500D5B704 /* Assets.xcassets */,
 				56B7BE501C0FAF2600D5B704 /* LaunchScreen.storyboard */,
 				56B7BE531C0FAF2600D5B704 /* Info.plist */,
@@ -125,6 +150,23 @@
 			path = "Get Me LostUITests";
 			sourceTree = "<group>";
 		};
+		5F564E3BCEA7B0744DED7F3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70094154CE94731F2C291B7B /* Pods-Get Me Lost.debug.xcconfig */,
+				2319AF8352261CA67F068431 /* Pods-Get Me Lost.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88B170518A11374C9E8E2063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D954A9E6932A14C1C99CCB /* Pods_Get_Me_Lost.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56B7BE6C1C0FAF2600D5B704 /* Build configuration list for PBXNativeTarget "Get Me Lost" */;
 			buildPhases = (
+				D4A548AD051F5485D613086D /* Check Pods Manifest.lock */,
 				56B7BE401C0FAF2500D5B704 /* Sources */,
 				56B7BE411C0FAF2500D5B704 /* Frameworks */,
 				56B7BE421C0FAF2500D5B704 /* Resources */,
+				2F96AB102969E0D87FD8B66F /* Embed Pods Frameworks */,
+				F40EFF0916F5E2607E0B5517 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +299,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F96AB102969E0D87FD8B66F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get Me Lost/Pods-Get Me Lost-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A548AD051F5485D613086D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F40EFF0916F5E2607E0B5517 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get Me Lost/Pods-Get Me Lost-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56B7BE401C0FAF2500D5B704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563E0CC41C13E0A700364263 /* TakeHomeViewController.swift in Sources */,
+				567F284E1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift in Sources */,
+				5653E39C1C14A401003B9091 /* ArrivedViewController.swift in Sources */,
+				567F28501C13D529004CDC64 /* DestinationTableViewCell.swift in Sources */,
 				56B7BE4A1C0FAF2500D5B704 /* ViewController.swift in Sources */,
+				567F284C1C13CF78004CDC64 /* MenuViewController.swift in Sources */,
+				5653E39A1C14A11C003B9091 /* DirectionsViewController.swift in Sources */,
 				56B7BE481C0FAF2500D5B704 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +497,7 @@
 		};
 		56B7BE6D1C0FAF2600D5B704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70094154CE94731F2C291B7B /* Pods-Get Me Lost.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Get Me Lost/Info.plist";
@@ -409,6 +509,7 @@
 		};
 		56B7BE6E1C0FAF2600D5B704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2319AF8352261CA67F068431 /* Pods-Get Me Lost.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Get Me Lost/Info.plist";
@@ -485,6 +586,7 @@
 				56B7BE6E1C0FAF2600D5B704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B7BE6F1C0FAF2600D5B704 /* Build configuration list for PBXNativeTarget "Get Me LostTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +595,7 @@
 				56B7BE711C0FAF2600D5B704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56B7BE721C0FAF2600D5B704 /* Build configuration list for PBXNativeTarget "Get Me LostUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +604,7 @@
 				56B7BE741C0FAF2600D5B704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
