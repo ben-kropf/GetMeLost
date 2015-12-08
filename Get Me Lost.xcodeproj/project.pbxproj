@@ -15,7 +15,7 @@
 		567F284E1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F284D1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift */; };
 		567F28501C13D529004CDC64 /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F284F1C13D529004CDC64 /* DestinationTableViewCell.swift */; };
 		56B7BE481C0FAF2500D5B704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */; };
-		56B7BE4A1C0FAF2500D5B704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7BE491C0FAF2500D5B704 /* ViewController.swift */; };
+		56B7BE4A1C0FAF2500D5B704 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B7BE491C0FAF2500D5B704 /* HomeViewController.swift */; };
 		56B7BE4D1C0FAF2500D5B704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B7BE4B1C0FAF2500D5B704 /* Main.storyboard */; };
 		56B7BE4F1C0FAF2600D5B704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B7BE4E1C0FAF2500D5B704 /* Assets.xcassets */; };
 		56B7BE521C0FAF2600D5B704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B7BE501C0FAF2600D5B704 /* LaunchScreen.storyboard */; };
@@ -51,7 +51,7 @@
 		567F284F1C13D529004CDC64 /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
 		56B7BE441C0FAF2500D5B704 /* Get Me Lost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Me Lost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56B7BE491C0FAF2500D5B704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56B7BE491C0FAF2500D5B704 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		56B7BE4C1C0FAF2500D5B704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56B7BE4E1C0FAF2500D5B704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56B7BE511C0FAF2600D5B704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				56B7BE471C0FAF2500D5B704 /* AppDelegate.swift */,
-				56B7BE491C0FAF2500D5B704 /* ViewController.swift */,
+				56B7BE491C0FAF2500D5B704 /* HomeViewController.swift */,
 				56B7BE4B1C0FAF2500D5B704 /* Main.storyboard */,
 				5653E39B1C14A401003B9091 /* ArrivedViewController.swift */,
 				5653E3991C14A11C003B9091 /* DirectionsViewController.swift */,
@@ -356,7 +356,7 @@
 				567F284E1C13D42E004CDC64 /* DestinationFiltersTableViewController.swift in Sources */,
 				5653E39C1C14A401003B9091 /* ArrivedViewController.swift in Sources */,
 				567F28501C13D529004CDC64 /* DestinationTableViewCell.swift in Sources */,
-				56B7BE4A1C0FAF2500D5B704 /* ViewController.swift in Sources */,
+				56B7BE4A1C0FAF2500D5B704 /* HomeViewController.swift in Sources */,
 				567F284C1C13CF78004CDC64 /* MenuViewController.swift in Sources */,
 				5653E39A1C14A11C003B9091 /* DirectionsViewController.swift in Sources */,
 				56B7BE481C0FAF2500D5B704 /* AppDelegate.swift in Sources */,

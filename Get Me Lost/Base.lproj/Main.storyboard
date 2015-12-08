@@ -10,7 +10,7 @@
         <!--Get Me Lost-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Get_Me_Lost" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Get_Me_Lost" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -73,7 +73,7 @@
                                         <rect key="frame" x="8" y="8" width="103" height="30"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vr-w1-D3V">
                                         <rect key="frame" x="119" y="13" width="58" height="20.5"/>
@@ -113,7 +113,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="BcB-1i-csH" kind="modal" id="Q38-js-EOr"/>
+                                    <segue destination="BcB-1i-csH" kind="modal" identifier="addFilterSegue" id="Q38-js-EOr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -897,7 +897,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hvH-ao-sFj"/>
+        <segue reference="WWU-43-yIG"/>
         <segue reference="9aE-2D-1HM"/>
-        <segue reference="7iq-gu-3K9"/>
     </inferredMetricsTieBreakers>
 </document>
