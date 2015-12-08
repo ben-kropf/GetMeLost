@@ -23,4 +23,5 @@ We used some assets from third parties. Link to credit/assets are below.
 - [Background Baltimore City image](http://www.theinlinegroup.com/bmsi/images/Baltimore_Skyline.jpg)
 - [Social Media Icons](www.allanmcavoy.co.uk) (by Allan)
 - [Blaze Pizza Image](http://tastychomps.com/wp-content/uploads/2015/08/IMG_4999.jpg)
+- Maps Screenshots from Apple Maps
 - App Logo by Stefanie Anttila
