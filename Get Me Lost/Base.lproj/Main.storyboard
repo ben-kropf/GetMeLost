@@ -255,7 +255,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="circleView" destination="1ft-At-Dwc" id="2Uu-bz-3yk"/>
-                        <segue destination="LQL-il-2Ks" kind="push" id="SAu-gL-q4d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="In3-db-bgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -898,8 +897,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hvH-ao-sFj"/>
-        <segue reference="EW3-md-ke7"/>
-        <segue reference="iJN-JH-YtY"/>
         <segue reference="9aE-2D-1HM"/>
+        <segue reference="7iq-gu-3K9"/>
     </inferredMetricsTieBreakers>
 </document>
