@@ -20,12 +20,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jz0-MU-oKb" customClass="SpringButton" customModule="Spring">
-                                <rect key="frame" x="30" y="444" width="260" height="40"/>
+                                <rect key="frame" x="30" y="424" width="260" height="60"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="jz0-MU-oKb" secondAttribute="height" multiplier="13:2" id="b8K-pj-LfZ"/>
-                                    <constraint firstAttribute="height" constant="40" id="jiM-wR-4H0"/>
+                                    <constraint firstAttribute="width" constant="260" id="cw2-Bv-tQn"/>
+                                    <constraint firstAttribute="height" constant="60" id="jiM-wR-4H0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                                 <state key="normal" title="Get Me Lost!">
@@ -34,7 +34,7 @@
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
                                     <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideUp"/>
@@ -477,11 +477,11 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7eN-wX-fzs" customClass="SpringButton" customModule="Spring">
-                                <rect key="frame" x="277" y="203" width="23" height="23"/>
+                                <rect key="frame" x="272" y="198" width="40" height="40"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="23" id="QdA-Ui-E4H"/>
-                                    <constraint firstAttribute="height" constant="23" id="vI3-Cx-cnN"/>
+                                    <constraint firstAttribute="width" constant="40" id="QdA-Ui-E4H"/>
+                                    <constraint firstAttribute="height" constant="40" id="vI3-Cx-cnN"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="icon-heart"/>
@@ -495,8 +495,8 @@
                         <constraints>
                             <constraint firstItem="EWo-xR-5Xu" firstAttribute="leading" secondItem="F6C-r3-ead" secondAttribute="leadingMargin" constant="-8" id="6Tu-zQ-RQ3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="JRe-yX-7Le" secondAttribute="trailing" constant="-8" id="BXa-53-AsL"/>
-                            <constraint firstItem="7eN-wX-fzs" firstAttribute="leading" secondItem="EWo-xR-5Xu" secondAttribute="trailing" constant="-35" id="Hiv-JZ-SyE"/>
-                            <constraint firstItem="7eN-wX-fzs" firstAttribute="top" secondItem="EWo-xR-5Xu" secondAttribute="bottom" constant="-35" id="UY5-OY-ztj"/>
+                            <constraint firstItem="7eN-wX-fzs" firstAttribute="leading" secondItem="EWo-xR-5Xu" secondAttribute="trailing" constant="-40" id="Hiv-JZ-SyE"/>
+                            <constraint firstItem="7eN-wX-fzs" firstAttribute="top" secondItem="EWo-xR-5Xu" secondAttribute="bottom" constant="-40" id="UY5-OY-ztj"/>
                             <constraint firstItem="A5r-Tl-Erg" firstAttribute="top" secondItem="TZa-vR-naL" secondAttribute="bottom" constant="8" id="VHM-fd-Yud"/>
                             <constraint firstItem="TZa-vR-naL" firstAttribute="top" secondItem="JRe-yX-7Le" secondAttribute="bottom" constant="8" id="VzY-ij-8xz"/>
                             <constraint firstItem="A5r-Tl-Erg" firstAttribute="centerX" secondItem="F6C-r3-ead" secondAttribute="centerX" id="cW6-wn-4Jn"/>
@@ -897,7 +897,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hvH-ao-sFj"/>
-        <segue reference="WWU-43-yIG"/>
         <segue reference="9aE-2D-1HM"/>
+        <segue reference="7iq-gu-3K9"/>
     </inferredMetricsTieBreakers>
 </document>
